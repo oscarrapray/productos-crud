@@ -9,6 +9,16 @@
       "id": 2,
       "nombre": "Jugo de Limón",
       "precio": 100
+    },
+    {
+      "id": "a82fd964-3f43-4da8-a828-46bd77f45524",
+      "nombre": "producto1",
+      "precio": "78"
+    },
+    {
+      "id": "83811277-339f-460c-af12-6c93a48af64b",
+      "nombre": "producto2",
+      "precio": "400"
     }
   ]
 }
