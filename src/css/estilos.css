@@ -141,3 +141,12 @@ body{
  input:focus +label{
     color: var(--color);
 }
+/**********************/
+.text-center{
+  text-align: center;
+}
+.error{
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}

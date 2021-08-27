@@ -25,8 +25,8 @@ const Productos = () => {
 
     return (
       <div className="cont_products">
-        { error ? <p >Hubo un error</p> : null }       
-           { cargando ? <p >Cargando....</p> : null }
+        { error ? <p className = "error">Hubo un error</p> : null }       
+           { cargando ? <p className="text-center">Cargando....</p> : null }
         <Link  to = "/productos/nuevo" className="btn btn_new">Nuevo</Link>
         { productos.length === 0 ? (
           <div>

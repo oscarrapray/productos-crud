@@ -92,7 +92,7 @@ const submitNuevoProducto = e => {
         </form>
         { cargando ? <p>Cargando...</p> : null }
                         
-                        { error ? <p >Hubo un error</p> : null }
+        { error ? <p className = "error">Hubo un error</p> : null }
     </div>
      );
 }
