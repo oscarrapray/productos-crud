@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background: #eee;
+  }
+  .title-crud{
+    text-decoration: none;
+    color: #5bc0de;
+  }
+  .container,.cont_products{
+      width: 100%;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    empty-cells: hide;
+    width: 100%;
+    background: #fff;
+    border: 1px solid black;
+  }
+  th,td{
+    border: 1px solid black;
+  }
+  tr:not(.tr-head):hover{
+    background: #eee;
+  }
+  
+  
+  td:hover,
+  th:not(.th-head):hover{
+    background: #ccc;
+  }
+  
+  thead tr{
+    color: white;
+    background: royalblue;
+  }
+  
+  /* thead th{
+    border: none;
+  } */
+  
+  th{
+    text-align: left;
+    padding: .5em;
+  }
+  td{
+    text-align: left;
+    padding: .5em;
+  }
+  /*************************/
+  .btn{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 1rem;
+    line-height: 1.6;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: .25rem;
+    margin: .25em;
+    text-decoration:  none;
+  }
+  .btn_new{
+    background:#1192ee;
+    border: 1px solid #1192ee;
+    color: #fff;
+}
+.btn_new:hover{
+    background: #0e7ecd;
+}
+.btn_edit{
+    background: #2bd480;
+    border: 1px solid #2bd480;
+    color: #fff;
+}
+.btn_edit:hover{
+    background: #2ebd75;
+}
+.btn_delete{
+    background: #eb5656;
+    border: 1px solid #eb5656;
+    color: #fff;
+}
+.btn_delete:hover{
+    background: #d84646;
+}
+  /*******************************/
+  .form-product{
+    width: 100%;
+    max-width: 500px;
+    margin: 2em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0,0,0.25);
+}
+
+.title_form{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.form_item{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    width: 100%;
+}
+
+ label{
+    margin-bottom: 0.25rem;
+    order: -1;
+}
+
+ input{
+    border: 1px solid #ddd;
+    line-height: 1.6;
+    border-radius: 0.1rem;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    width: 100%;
+}
+
+ input:focus +label{
+    color: var(--color);
+}
