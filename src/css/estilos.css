@@ -150,3 +150,9 @@ body{
   color: red;
   text-align: center;
 }
+.alert{
+  font-weight: bold;
+  color:#fff;
+  background: red;
+  text-align: center;
+}

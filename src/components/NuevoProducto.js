@@ -45,7 +45,7 @@ const submitNuevoProducto = e => {
 
         const alerta = {
             msg: 'Ambos campos son obligatorios',
-            classes: 'alert alert-danger text-center text-uppercase p3'
+            classes: 'alert'
         }
         dispatch( mostrarAlerta(alerta) );
 
